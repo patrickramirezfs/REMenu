@@ -22,7 +22,7 @@
     
     // Here self.navigationController is an instance of NavigationViewController (which is a root controller for the main window)
     //
-    self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"Menu" style:UIBarButtonItemStyleBordered target:self.navigationController action:@selector(toggleMenu)];
+    self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"Menu" style:UIBarButtonItemStylePlain target:self.navigationController action:@selector(toggleMenu)];
     
     UIImageView *imageView = [[UIImageView alloc] initWithFrame:self.view.bounds];
     imageView.image = [UIImage imageNamed:@"Balloon"];
